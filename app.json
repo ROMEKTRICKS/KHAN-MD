@@ -35,8 +35,8 @@
     
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": false,
-      "value": "false"  
+      "required": true,
+      "value": "true"  
     },    
   
     "AUTO_VOICE": {
@@ -66,7 +66,7 @@
 
     "AUTO_STATUS_REACT": {
       "description": "make it true for automatic status reaction or like.",
-      "required": true,
+      "required": false,
       "value": "true"
     }, 
 
@@ -78,7 +78,7 @@
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
-      "required": true,
+      "required": false,
       "value": "*SEEN YOUR STATUS BY KHAN-MD 🖤*"
    
      }, 
@@ -155,8 +155,8 @@
 
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
 
     "AUTO_REACT": {
